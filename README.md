@@ -1,7 +1,7 @@
 # basic-go-notepad
 A basic online notepad made with Go.
 
-🌴 Simple Notes App
+### 🌴 Simple Notes App
 
 This simple note-taking application allows users to add, edit, and delete text-based notes. Users can access and edit their personal notes using this application. Additionally, continuous session-based storage is provided to store the notes.
 Error Situations and Solutions
@@ -22,7 +22,7 @@ Error Situations and Solutions
         Problem: The note could not be found.
         Solution: Check if there is a note with the specified ID. Consider that the note may have been deleted or may have an incorrect ID. If you suspect the note has been deleted, you may consider re-adding the note.
 
-### How the Program Works
+### 🌴 How the Program Works
 
 ··  Server Initialization: When the program starts, an HTTP server is initialized to listen on a specific port (by default 8080).
 

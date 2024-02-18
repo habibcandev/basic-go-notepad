@@ -24,18 +24,18 @@ Error Situations and Solutions
 
 How the Program Works
 
-    Server Initialization: When the program starts, an HTTP server is initialized to listen on a specific port (by default 8080).
+··  Server Initialization: When the program starts, an HTTP server is initialized to listen on a specific port (by default 8080).
 
-    Handling Requests: The server listens for incoming HTTP requests to specific URLs and routes them to appropriate handlers to perform the necessary actions.
+··  Handling Requests: The server listens for incoming HTTP requests to specific URLs and routes them to appropriate handlers to perform the necessary actions.
 
-    Home Page Request: When a request for the home page (/) is received, the server responds with a message "Welcome to Simple Notes App!"
+··  Home Page Request: When a request for the home page (/) is received, the server responds with a message "Welcome to Simple Notes App!"
 
-    Notes List Request: A request for the list of notes (/notes) returns all the notes stored on the server in JSON format.
+··  Notes List Request: A request for the list of notes (/notes) returns all the notes stored on the server in JSON format.
 
-    Add Note Request: An add note request (/add) is used to add a new note to the server. It receives JSON data sent by the user, assigns an ID to the note, and adds it to the list of notes.
+··  Add Note Request: An add note request (/add) is used to add a new note to the server. It receives JSON data sent by the user, assigns an ID to the note, and adds it to the list of notes.
 
-    Edit Note Request: An edit note request (/edit/:id) is used to edit a specific note. It receives JSON data sent by the user and finds the note with the specified ID. The title and body of the note are then updated.
+··  Edit Note Request: An edit note request (/edit/:id) is used to edit a specific note. It receives JSON data sent by the user and finds the note with the specified ID. The title and body of the note are then updated.
 
-    Delete Note Request: A delete note request (/delete/:id) is used to delete a specific note. It removes the note from the list of notes based on the provided ID.
+··  Delete Note Request: A delete note request (/delete/:id) is used to delete a specific note. It removes the note from the list of notes based on the provided ID.
 
-    Error Situations: In case of any error, the server responds with an appropriate HTTP status code and a message explaining the cause of the error. Users can understand the reasons for the errors and make necessary corrections.
+··  Error Situations: In case of any error, the server responds with an appropriate HTTP status code and a message explaining the cause of the error. Users can understand the reasons for the errors and make necessary corrections.
